@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-image: url("https://i.ibb.co/BPGhX69/Desktop-2.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.stumate {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    text-align: center;
+    font-family: "Kanit";
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.mod-0 {
+    font-size: 11px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    text-align: center;
+    margin-top: 6px;
+    font-family: "Kanit";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sub-head {
+    position: relative;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Kanit";
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.description {
+    position: relative;
+    animation-name: example2;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Kanit";
+    font-weight: 200;
+    color: #ffffff;
+}
+
+@keyframes example {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: 20px;
+    }
+}
+
+@keyframes example1 {
+    from {
+        top: 700px;
+    }
+
+    to {
+        top: 40px;
+    }
+}
+
+@keyframes example2 {
+    from {
+        top: 2000px;
+    }
+
+    to {
+        top: 50px;
+    }
+}
